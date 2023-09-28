@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B16B91FA2AB1FC3E00A4E6FD /* FoodDeliveryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B91F92AB1FC3E00A4E6FD /* FoodDeliveryAppApp.swift */; };
-		B16B91FC2AB1FC3E00A4E6FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B91FB2AB1FC3E00A4E6FD /* ContentView.swift */; };
 		B16B91FE2AB1FC4300A4E6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16B91FD2AB1FC4300A4E6FD /* Assets.xcassets */; };
 		B16B92012AB1FC4300A4E6FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16B92002AB1FC4300A4E6FD /* Preview Assets.xcassets */; };
 		B16B920B2AB1FC4400A4E6FD /* FoodDeliveryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B920A2AB1FC4400A4E6FD /* FoodDeliveryAppTests.swift */; };
 		B16B92152AB1FC4400A4E6FD /* FoodDeliveryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B92142AB1FC4400A4E6FD /* FoodDeliveryAppUITests.swift */; };
 		B16B92172AB1FC4400A4E6FD /* FoodDeliveryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B92162AB1FC4400A4E6FD /* FoodDeliveryAppUITestsLaunchTests.swift */; };
+		B16B922B2AB1FDA600A4E6FD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B922A2AB1FDA600A4E6FD /* MainView.swift */; };
+		B16B922D2AB1FDB100A4E6FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B922C2AB1FDB100A4E6FD /* HomeView.swift */; };
+		B16B922F2AB1FDBD00A4E6FD /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B922E2AB1FDBD00A4E6FD /* CartView.swift */; };
+		B16B92312AB1FDCB00A4E6FD /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B92302AB1FDCB00A4E6FD /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		B16B91F62AB1FC3E00A4E6FD /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16B91F92AB1FC3E00A4E6FD /* FoodDeliveryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppApp.swift; sourceTree = "<group>"; };
-		B16B91FB2AB1FC3E00A4E6FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B16B91FD2AB1FC4300A4E6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16B92002AB1FC4300A4E6FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B16B92062AB1FC4400A4E6FD /* FoodDeliveryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		B16B92102AB1FC4400A4E6FD /* FoodDeliveryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16B92142AB1FC4400A4E6FD /* FoodDeliveryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppUITests.swift; sourceTree = "<group>"; };
 		B16B92162AB1FC4400A4E6FD /* FoodDeliveryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B16B922A2AB1FDA600A4E6FD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B16B922C2AB1FDB100A4E6FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B16B922E2AB1FDBD00A4E6FD /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B16B92302AB1FDCB00A4E6FD /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,13 @@
 			isa = PBXGroup;
 			children = (
 				B16B91F92AB1FC3E00A4E6FD /* FoodDeliveryAppApp.swift */,
-				B16B91FB2AB1FC3E00A4E6FD /* ContentView.swift */,
+				B16B92292AB1FD6800A4E6FD /* Envoirment */,
+				B16B92282AB1FD5600A4E6FD /* UIKitViews */,
+				B16B92272AB1FD4700A4E6FD /* Utils */,
+				B16B92232AB1FD0000A4E6FD /* Networking */,
+				B16B92242AB1FD0E00A4E6FD /* Models */,
+				B16B92252AB1FD1900A4E6FD /* ViewModel */,
+				B16B92262AB1FD2B00A4E6FD /* PresentationLayer */,
 				B16B91FD2AB1FC4300A4E6FD /* Assets.xcassets */,
 				B16B91FF2AB1FC4300A4E6FD /* Preview Content */,
 			);
@@ -125,6 +137,59 @@
 				B16B92162AB1FC4400A4E6FD /* FoodDeliveryAppUITestsLaunchTests.swift */,
 			);
 			path = FoodDeliveryAppUITests;
+			sourceTree = "<group>";
+		};
+		B16B92232AB1FD0000A4E6FD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B16B92242AB1FD0E00A4E6FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B16B92252AB1FD1900A4E6FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B16B92262AB1FD2B00A4E6FD /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B16B922A2AB1FDA600A4E6FD /* MainView.swift */,
+				B16B922C2AB1FDB100A4E6FD /* HomeView.swift */,
+				B16B922E2AB1FDBD00A4E6FD /* CartView.swift */,
+				B16B92302AB1FDCB00A4E6FD /* FavoriteView.swift */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		B16B92272AB1FD4700A4E6FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B16B92282AB1FD5600A4E6FD /* UIKitViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKitViews;
+			sourceTree = "<group>";
+		};
+		B16B92292AB1FD6800A4E6FD /* Envoirment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Envoirment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16B91FC2AB1FC3E00A4E6FD /* ContentView.swift in Sources */,
+				B16B922F2AB1FDBD00A4E6FD /* CartView.swift in Sources */,
+				B16B922D2AB1FDB100A4E6FD /* HomeView.swift in Sources */,
+				B16B922B2AB1FDA600A4E6FD /* MainView.swift in Sources */,
+				B16B92312AB1FDCB00A4E6FD /* FavoriteView.swift in Sources */,
 				B16B91FA2AB1FC3E00A4E6FD /* FoodDeliveryAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
